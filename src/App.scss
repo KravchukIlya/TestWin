@@ -1,0 +1,56 @@
+.block {
+    width: 968px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+
+    .block__text {
+        width: 237px;
+        height: 25px;
+        left: 188px;
+        top: 25px;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 9px;
+        color: #2c2c2c;
+    }
+}
+.block__okno__info:nth-child(4n) {
+    margin-right: 0;
+}
+@media screen and (max-width: 997px) {
+    .block__okno__info:nth-child(3n) {
+        margin-right: 0;
+    }
+    .block__okno__info:nth-child(4n) {
+        margin-right: 24px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .block__okno__info:nth-child(3n) {
+        margin-right: 24px;
+    }
+    block__okno__info:nth-child(2n) {
+        margin-right: 0px;
+    }
+}
+.block__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.block__item__click__img {
+    display: flex;
+    justify-content: flex-end;
+}
+.block__item__click__text {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #00a0ab;
+}

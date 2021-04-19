@@ -1,0 +1,117 @@
+.block__okno__info {
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
+
+    margin-right: 24px;
+}
+
+.block__okno__img {
+    position: relative;
+    width: 224px;
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+}
+.block__okno__glavimg {
+    width: 224px;
+    height: 260px;
+    border-radius: 8px 8px 0 0;
+}
+.block__okno__svg {
+    img {
+        margin-top: 16px;
+    }
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 188px;
+    top: 150px;
+    width: 24px;
+    height: 24px;
+}
+
+.block__okno__pros {
+    width: 94px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 65px;
+    top: 12px;
+    border-radius: 8px;
+    background: rgba(44, 44, 44, 0.74);
+    span {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+
+        color: #ffffff;
+    }
+}
+
+.block__info {
+    width: 224px;
+    height: 108px;
+    border-radius: 0 0 8px 8px;
+    background: #ffffff;
+    margin-bottom: 24px;
+}
+.block__info__price__svg {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 12px 8px 12px;
+}
+.block__info__price {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    .old__price {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration: line-through;
+        color: #5a5a5a;
+    }
+    .price {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 25px;
+
+        color: #2c2c2c;
+    }
+}
+
+.block__info__name {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0px 12px 14px 12px;
+
+    color: #2c2c2c;
+}
+.block__info__sity {
+    display: flex;
+    justify-content: space-between;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0px 12px;
+    color: #8f8f8f;
+}
+.block__info__svg {
+    display: flex;
+}
